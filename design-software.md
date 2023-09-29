@@ -15,10 +15,12 @@ Todo o esforço realizado para conceber o a estrutura do software, de modo que o
 - Registar os termos de abertura do projeto, com visões, objetivos, escopo e caracerísticas do mesmo;
 - Criar e acompanhar um relatório de Status do projeto;
 
-(11 - Criar e acompanhar um plano de Gerenciamento de configuração dos artefatos gerados no projeto)
-(12 - Criar e aplicar planos de testes e critérios de aceitação para os artefatos no projeto)
-(13 - Criar e aplicar um plano de Mitigação de riscos)
-(14 - Criar e aplicar um relatório de encerramento do projeto, com lições aprendidas, avaliação, suporte e manutenção do projeto)
+### (Não citado, eu acho)
+
+- Criar e acompanhar um plano de Gerenciamento de configuração dos artefatos gerados no projeto)
+- Criar e aplicar planos de testes e critérios de aceitação para os artefatos no projeto)
+- Criar e aplicar um plano de Mitigação de riscos)
+- Criar e aplicar um relatório de encerramento do projeto, com lições aprendidas, avaliação, suporte e manutenção do projeto)
 
 ## Você tinha conhecimento destas atividades e os entregáveis correspondentes?
 
