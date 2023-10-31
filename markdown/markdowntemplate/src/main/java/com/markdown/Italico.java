@@ -1,10 +1,14 @@
 package com.markdown;
 
 public class Italico {
+
+    private Texto texto;
+
     public Italico(Texto texto) {
+        this.texto = texto;
     }
 
-    public void Italico(Texto texto){
-        System.out.println("__"+texto.texto+"__");
+    public String saida(){
+        return("__"+texto.texto+"__");
     }
 }
