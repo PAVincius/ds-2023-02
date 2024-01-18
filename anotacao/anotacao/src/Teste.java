@@ -3,10 +3,10 @@ public class Teste {
         // Cria uma instância de Observable com identificador "carro"
         Observable carroObservable = new Observable("carro");
 
-        // Cria uma instância de CarroObserver
-        CarroObserver carroObserver = new CarroObserver();
+        // Adiciona um CarroObserver usando uma expressão lambda
+        carroObservable.adicionarObserver(() -> System.out.println("CarroObserver notificado via lambda"));
 
-        // fica olhando o objeto carroObserver
-        carroObservable.adicionarObserver(carroObserver);
+        // Notifica todos os observadores
+        carroObservable.notificarObservadores();
     }
 }
