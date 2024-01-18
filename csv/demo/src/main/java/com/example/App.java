@@ -1,6 +1,6 @@
 package com.example;
 
-
+import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVParser;
 import org.apache.commons.csv.CSVPrinter;
 import org.apache.commons.csv.CSVRecord;
@@ -14,10 +14,10 @@ import java.util.List;
 public class App {
     public static void main(String[] args) {
         try (
-            Reader reader = new FileReader("input.csv");
-            CSVParser csvParser = CSVFormat.DEFAULT.parse(reader);
-            Writer writer = new FileWriter("output.csv");
-            CSVPrinter csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT)
+                Reader reader = new FileReader("input.csv");
+                CSVParser csvParser = CSVFormat.DEFAULT.parse(reader);
+                Writer writer = new FileWriter("output.csv");
+                CSVPrinter csvPrinter = new CSVPrinter(writer, CSVFormat.DEFAULT)
         ) {
             for (CSVRecord record : csvParser) {
                 List<String> values = record.toJavaList();
@@ -30,5 +30,3 @@ public class App {
         }
     }
 }
-
-
