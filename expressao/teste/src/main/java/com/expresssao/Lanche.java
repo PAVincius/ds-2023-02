@@ -1,5 +1,6 @@
 package com.expresssao;
 
 public interface Lanche {
-    public Double getValor();
+    String getDescricao();
+    double getCusto();
 }
